@@ -3,7 +3,7 @@ const BLOG = {
   author: 'anriclee',
   email: 'anriclee@gmail.com',
   link: 'https://anriclee.vercel.app',
-  description: 'This gonna be an awesome website.',
+  description: '写点儿代码，读点儿历史，喝点儿咖啡，聊点儿家常',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
