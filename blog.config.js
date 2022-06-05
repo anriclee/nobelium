@@ -1,6 +1,6 @@
 const BLOG = {
   title: '我的精神家园',
-  author: 'Anric Lee',
+  author: 'anriclee',
   email: 'anriclee@gmail.com',
   link: 'https://nobelium.vercel.app',
   description: 'This gonna be an awesome website.',
