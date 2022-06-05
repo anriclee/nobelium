@@ -1,8 +1,8 @@
 const BLOG = {
-  title: '我的精神家园',
+  title: '读小屋',
   author: 'anriclee',
   email: 'anriclee@gmail.com',
-  link: 'https://nobelium.vercel.app',
+  link: 'https://anriclee.vercel.app',
   description: 'This gonna be an awesome website.',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
@@ -42,8 +42,8 @@ const BLOG = {
       repo: 'diagramStorage', // The repository of store comments
       owner: 'anriclee',
       admin: ['anriclee'],
-      clientID: 'fc7345252dd32606c2c5',
-      clientSecret: '3aeaef841e4d2bcccb827cc103cd66e6934ecabe',
+      clientID: process.env.GITHUB_CLIENT_ID,
+      clientSecret: process.env.GITHUB_SECRET,
       distractionFreeMode: false
     },
     utterancesConfig: {
